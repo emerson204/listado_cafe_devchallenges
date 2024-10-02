@@ -10,7 +10,7 @@ export default function Tarjeta() {
   return (
     <>
       {loading === true && (
-        <p className="text-center mt-4 text-2xl font-semibold">Cargando...</p>
+        <p className="text-center mt-16 text-2xl font-semibold">Cargando...</p>
       )}
 
       <div className="grid lg:grid-cols-3 md:grid-cols-2 md:justify-items-center mt-5">
