@@ -16,7 +16,7 @@ export default function Tarjeta() {
       <div className="grid lg:grid-cols-3 md:grid-cols-2 md:justify-items-center mt-5">
         {result !== null &&
           result.map((cafe) => (
-            <div className="m-9 " key={cafe.id}>
+            <div className="m-9 text-white" key={cafe.id}>
               <div className="relative">
                 <img
                   src={cafe.image}
